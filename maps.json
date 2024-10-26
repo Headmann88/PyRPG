@@ -1,0 +1,74 @@
+{
+    "map_legend": {
+        "W": "Wall",
+        "P": "Player Start",
+        "g": "Goblin Enemy",
+        "D": "Door to Next Map",
+        " ": "Empty Space"
+    },
+    "maps": [
+        {
+            "name": "Starting Room",
+            "layout": [
+                "WWWWWWWWWWWWWWWWWWWW",
+                "W        W         W",
+                "W  P     W         W",
+                "W        W    g    W",
+                "W        W         W",
+                "W        W         W",
+                "W    H   W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W                  W",
+                "W        W    g    W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "WWWWWWWWWWWWWWWDWWWW"
+            ]
+        },
+        {
+            "name": "Second Room",
+            "layout": [
+                "WWWWWWWWWWWWWWWWWWWW",
+                "W P      W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W                  W",
+                "W   g    W         W",
+                "W        W         W",
+                "W        W         W",
+                "WWWWWWWWWWWWWWDWWWWW"
+            ]
+        },
+        {
+            "name": "Final Room",
+            "layout": [
+                "WWWWWWWWWWWWWWWWWWWW",
+                "W P      W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W    o    W",
+                "W        W         W",
+                "W                  W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W         W",
+                "W        W    s    W",
+                "W        W         W",
+                "WWWWWWWWWWWWWWWWWWWW"
+            ]
+        }
+    ]
+}
